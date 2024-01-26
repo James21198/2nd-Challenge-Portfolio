@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Trebuchet MS;
+    margin: 5px;
+  }
+  
+  header {
+    padding: 1px;
+    text-align: start;
+    background: #901e1e;
+    color: #ffffff;
+  }
+  .sidenav {
+    height: 120%;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    background-color: #901e1e;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #fdfd00;
+  }
+  .sidenav a:active {
+    color: #fdfd00;
+  }
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px
+  }
+  p {text-align: center;
+    line-height: 10px;
+}
+
+  h2 {text-align: center;}
+
+  #anchor1 {
+    color: black;
+  }
+
+  h3 {text-align: center;}
+
+  ul {
+    padding: 5px;
+    text-align: right;
+    color: #ffffff;
+  }
+  li {
+    display: inline;
+    font-size: 30px;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+    padding: 1px;
+  }
+
+  .image-container img {
+    margin-left: 200px;
+    outline: solid #901e1e;
+    border-radius: 15px;
+    display: block;
+    width: 85%;
+    height: auto;
+  }
+
+  .overlay-text-1 {
+    margin: 10px;
+    outline: solid #901e1e;
+    position: absolute;
+    border-radius: 0px 15px 15px 0px;
+    top: 70%;
+    left: 49.75%;
+    transform: translate(-50%, -50%);
+    background-color: #901e1e;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .overlay-text-2 {
+    margin: 10px;
+    outline: solid #901e1e;
+    position: absolute;
+    border-radius: 0px 15px 15px 0px;
+    top: 70%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-color: #901e1e;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .image-container {
+        width: 50%;
+    }
+    .image container img {
+        width: 50%;
+    }
+    .overlay-text-1 {
+        width: 30%;
+        left: 17.1%;
+    }
+    .overlay-text-2 {
+        width: 30%;
+        left: 17.1%;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media screen and (max-width: 768px) {
+    .image-container {
+        width: 75%;
+    }
+    .image container img {
+        width: 75%;
+    }
+    .overlay-text-1 {
+        width: 30%;
+        left: 18%;
+    }
+    .overlay-text-2 {
+        width: 30%;
+        left: 18%;
+    }
+  }
+
+  footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+  
