@@ -9,31 +9,28 @@
   
   header {
     padding: 1px;
-    text-align: start;
-    background: #901e1e;
+    text-align: center;
+    background: #e01515;
     color: #ffffff;
   }
-  .sidenav {
-    height: 120%;
-    width: 160px;
-    position: absolute;
-    z-index: 1;
-    left: 5px;
-    background-color: #901e1e;
-    overflow-x: hidden;
-    padding-top: 20px;
+  .nav {
+    padding-left: 20px;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    background-color: #e01515;
   }
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
+  .nav a {
+    margin-left: 90%;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
-    display: block;
+    display: inline;
   }
-  .sidenav a:hover {
+  .nav a:hover {
     color: #fdfd00;
   }
-  .sidenav a:active {
+  .nav a:active {
     color: #fdfd00;
   }
   .main {
@@ -41,16 +38,22 @@
     padding: 0px 10px
   }
   p {text-align: center;
-    line-height: 10px;
+    line-height: 15px;
 }
 
-  h2 {text-align: center;}
+  h1 {font-size: 40px;}
 
-  #anchor1 {
-    color: black;
+  h2 {text-align: center;
+    font-size: 32px;
   }
 
-  h3 {text-align: center;}
+  h3 {text-align: center;
+    font-size: 32px;
+  }
+
+  h4 {text-align: center;
+    font-size: 32px;
+  }
 
   ul {
     padding: 5px;
@@ -62,30 +65,49 @@
     font-size: 30px;
   }
 
-  .image-container {
-    position: relative;
-    display: inline-block;
-    padding: 1px;
+  .image-banner {
+    width: 100%;
+    height: 200px;
   }
 
-  .image-container img {
+  .image-container-1 {
+    position: relative;
+    display: block;
+    padding: 20px;
+  }
+
+  .image-container-1 img {
     margin-left: 200px;
-    outline: solid #901e1e;
+    outline: solid #e01515;
     border-radius: 15px;
     display: block;
-    width: 85%;
-    height: auto;
+    width: 65%;
+    height: 275px;
   }
 
+  .image-container-2 {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .image-container-2 img {
+    margin-left: 215px;
+    outline: solid #e01515;
+    border-radius: 15px;
+    display: inline-block;
+    width: 60%;
+    height: 200px;
+  }
   .overlay-text-1 {
     margin: 10px;
-    outline: solid #901e1e;
+    outline: solid #e01515;
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 49.75%;
+    left: 19.25%;
     transform: translate(-50%, -50%);
-    background-color: #901e1e;
+    background-color: #e01515;
     color: hsl(0, 0%, 100%);
     padding: 10px 20px;
     font-size: 20px;
@@ -93,52 +115,100 @@
   }
   .overlay-text-2 {
     margin: 10px;
-    outline: solid #901e1e;
+    outline: solid #e01515;
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 49%;
+    left: 51.75%;
     transform: translate(-50%, -50%);
-    background-color: #901e1e;
+    background-color: #e01515;
     color: hsl(0, 0%, 100%);
     padding: 10px 20px;
     font-size: 20px;
     text-align: center;
   }
-
-  @media screen and (max-width: 992px) {
-    .image-container {
-        width: 50%;
-    }
-    .image container img {
-        width: 50%;
-    }
-    .overlay-text-1 {
-        width: 30%;
-        left: 17.1%;
-    }
-    .overlay-text-2 {
-        width: 30%;
-        left: 17.1%;
-    }
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .overlay-text-3 {
+    margin: 10px;
+    outline: solid #e01515;
+    position: absolute;
+    border-radius: 0px 15px 15px 0px;
+    top: 70%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    background-color: #e01515;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
   }
   @media screen and (max-width: 768px) {
-    .image-container {
-        width: 75%;
+    .image-container-1 {
+      margin-left: 75px;
+      width: 80%;
     }
-    .image container img {
-        width: 75%;
+    .image-container-1 img {
+      margin-left: 75px;
+      width: 75%;
+    }
+    .image-container-2 {
+      margin-left: 82px;
+      width: 75.6%;
+      }
+    .image-container-2 img {
+      margin-left: 82px;
+      width: 75.6%;
+    }
+    .image-banner {
+      display: none;
     }
     .overlay-text-1 {
-        width: 30%;
-        left: 18%;
+      width: 20%;
+      left: 24.2%;
     }
     .overlay-text-2 {
-        width: 30%;
-        left: 18%;
+      width: 23%;
+      left: 25.2%;
     }
+    .overlay-text-3 {
+      width: 25%;
+      left: 26.2%;
+    }
+    .nav {display: none;}
+  }
+
+  @media screen and (max-width: 420px) {
+    .image-container-1 {
+      margin-left: 12.5px;
+      width: 95%;
+    }
+    .image-container-1 img {
+      margin-left: 12.5px;
+      width: 85%;
+    }
+    .image-container-2 {
+      margin-left: 20px;
+      width: 88%;
+      }
+    .image-container-2 img {
+      margin-left: 20px;
+      width: 84%;
+    }
+    .image-banner {
+      display: none;
+    }
+    .overlay-text-1 {
+      width: 40%;
+      left: 26.5%;
+    }
+    .overlay-text-2 {
+      width: 40%;
+      left: 25.2%;
+    }
+    .overlay-text-3 {
+      width: 45%;
+      left: 27.2%;
+    }
+    .nav {display: none;}
   }
 
   footer {
@@ -146,6 +216,8 @@
     clear: both;
     font-family: 'Trebuchet MS';
     text-align: center;
+    background-color: #e01515;
+    color: #ffffff;
 }
 
 footer h3 {
