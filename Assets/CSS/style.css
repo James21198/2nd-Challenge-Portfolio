@@ -14,18 +14,15 @@
     color: #ffffff;
   }
   .nav {
-    padding-left: 20px;
     width: 100%;
-    text-align: right;
-    display: inline-block;
+    text-align: end;
     background-color: #e01515;
   }
   .nav a {
-    margin-left: 90%;
+    padding: 185px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
     color: #ffffff;
-    display: inline;
   }
   .nav a:hover {
     color: #fdfd00;
@@ -59,10 +56,6 @@
     padding: 5px;
     text-align: right;
     color: #ffffff;
-  }
-  li {
-    display: inline;
-    font-size: 30px;
   }
 
   .image-banner {
@@ -173,7 +166,11 @@
       width: 25%;
       left: 26.2%;
     }
-    .nav {display: none;}
+    .nav a {
+      padding: 85px;
+      font-size: 18px;
+    }
+    h1 {font-size: 32px;}
   }
 
   @media screen and (max-width: 420px) {
@@ -208,8 +205,17 @@
       width: 45%;
       left: 27.2%;
     }
-    .nav {display: none;}
-  }
+    h1 {font-size: 24px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 24px;}
+
+    .nav a {
+      padding: 30px;
+      font-size: 16px;
+    }
+
+    p {padding: 15px}
+    }
 
   footer {
     padding: 30px;
@@ -218,9 +224,9 @@
     text-align: center;
     background-color: #e01515;
     color: #ffffff;
-}
+  }
 
-footer h3 {
+  footer h3 {
     font-size: 20px;
-}
+  }
   
