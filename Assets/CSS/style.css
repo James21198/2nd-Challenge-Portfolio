@@ -76,7 +76,7 @@
   }
 
   .image-container-1 img {
-    margin-left: 200px;
+    margin-left: 225px;
     outline: solid #e01515;
     border-radius: 15px;
     display: block;
@@ -91,11 +91,11 @@
   }
 
   .image-container-2 img {
-    margin-left: 215px;
+    margin-left: 240px;
     outline: solid #e01515;
     border-radius: 15px;
     display: inline-block;
-    width: 60%;
+    width: 53%;
     height: 200px;
   }
 
@@ -105,7 +105,7 @@
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 19.25%;
+    left: 21%;
     transform: translate(-50%, -50%);
     background-color: #e01515;
     color: hsl(0, 0%, 100%);
@@ -120,7 +120,7 @@
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 51.75%;
+    left: 54%;
     transform: translate(-50%, -50%);
     background-color: #e01515;
     color: hsl(0, 0%, 100%);
@@ -135,7 +135,7 @@
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 48.5%;
+    left: 50.5%;
     transform: translate(-50%, -50%);
     background-color: #e01515;
     color: hsl(0, 0%, 100%);
