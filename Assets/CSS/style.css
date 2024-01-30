@@ -21,7 +21,7 @@
   }
 
   .nav a {
-    padding: 185px;
+    padding: 192px;
     text-decoration: none;
     font-size: 24px;
     color: #ffffff;
@@ -80,7 +80,7 @@
     outline: solid #e01515;
     border-radius: 15px;
     display: block;
-    width: 65%;
+    width: 62.8%;
     height: 275px;
   }
 
@@ -105,7 +105,7 @@
     position: absolute;
     border-radius: 0px 15px 15px 0px;
     top: 70%;
-    left: 21%;
+    left: 20.25%;
     transform: translate(-50%, -50%);
     background-color: #e01515;
     color: hsl(0, 0%, 100%);
