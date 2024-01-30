@@ -7,4 +7,4 @@ In this project my main motivation was to build a good portfolio page which I be
 
 In addition to this I was also able to successfully add links into my images which allows any user to click on my work and for it to then take them to the repositories on my Github page. I have also really enjoyed that i was able to make my webpage fully responsive which allows for the screen to adapt to multiple screen sizes as per the below screenshot
 
-![Alt text](Assets\Images\Responsive-Web-Pages.png)
+![Alt text](Assets/Images/Responsive-Web-Pages.png)
